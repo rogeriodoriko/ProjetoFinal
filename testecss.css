@@ -25,7 +25,7 @@ footer {
   grid-area: rodape;
   display: flex;
   justify-content: space-evenly;
-}
+} 
 .parte1,
 .parte2,
 .parte3 {
