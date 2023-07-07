@@ -65,6 +65,14 @@ h1 {
   grid-template-rows: 100px 1150px 70px;
   grid-template-areas: "cabecalho cabecalho" "secao barra-lateral" "rodape rodape";
 }
+.gridfavs {
+  display: grid;
+  width: 95%;
+  margin: 0 auto;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: 100px 800px 70px;
+  grid-template-areas: "cabecalho cabecalho" "secao barra-lateral" "rodape rodape";
+}
 header {
   grid-area: cabecalho;
   --align-self: stretch;
@@ -165,10 +173,15 @@ footer {
 h4 {
   font-family: "opensans";
 }
+.juca {
+  display: block;
+  text-align: center;
+}
 .ju {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   height: 60px;
   margin-left: auto;
   margin-right: auto;
